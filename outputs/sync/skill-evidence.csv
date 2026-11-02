@@ -1,0 +1,13 @@
+snapshot_week,skill,skill_status,verified_detail_count,relevant_ab_count,independent_company_count,hard_requirement_count,estimated_learning_hours,evidence_basis,course_action
+baseline-2026-11-03,Python/API集成,core_confirmed,5,3,4,2,6,富阳Python软件集成、FDE交付、AI应用开发和AI全栈岗位资料,固定核心
+baseline-2026-11-03,RAG/Agent/Workflow,core_confirmed,4,3,4,2,6,原创软件、农夫山泉、万悉和FDE技能模型资料,固定核心
+baseline-2026-11-03,部署/日志/接口联调,core_confirmed,4,3,4,1,6,EY FDE技能模型、华途AI全栈、富阳软件集成和FDE岗位资料,固定核心
+baseline-2026-11-03,结构化输出/评测/人工复核,core_confirmed,4,3,4,4,4,原创软件、EY FDE、工程审查项目和现有评测要求,固定核心
+baseline-2026-11-03,需求梳理/UAT/交付文档,core_confirmed,4,3,4,3,5,EY FDE、小红书Workflow FDE、富阳软件集成和企业交付岗位模型,固定核心
+baseline-2026-11-03,Dify/Coze/FastGPT,watchlist,2,1,2,0,4,企业线索和平台相关资料，独立详情不足,观察
+baseline-2026-11-03,LangChain/LangGraph/LlamaIndex,watchlist,2,1,2,0,6,实习/校招和岗位线索中出现，社招详情不足,观察
+baseline-2026-11-03,SQL/MySQL/Redis,watchlist,2,1,2,0,8,跨城市参考和FDE技能模型中出现，杭州南京详情不足,观察
+baseline-2026-11-03,RPA/n8n,watchlist,2,1,2,0,6,南京伊克罗德和RPA企业线索，具体岗位不足,观察
+baseline-2026-11-03,TypeScript/前端工程化,watchlist,2,1,2,0,6,杭州万悉和原创软件岗位线索,观察
+baseline-2026-11-03,C/C++,long_term,2,1,2,1,16,华途终端Agent和伏羲CAD FDE，岗位方向不完全匹配,长期路线
+baseline-2026-11-03,CAD API,long_term,1,0,1,1,20,杭州伏羲FDE单条硬要求,长期路线

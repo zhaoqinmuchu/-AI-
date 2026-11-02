@@ -1,0 +1,24 @@
+city,title,company,salary,experience,education,employment_type,source_url,source_date,verification_status,match_tier,match_score,gaps,risk_flags
+杭州,Python开发,富阳创红进出口有限公司,8-12K,经验不限,学历不限,全职,https://hz.58.com/tech/68099625553084x.shtml,2026-11-02,detail_verified,A,78,Python/API/评测/部署,需确认公司实际AI项目比例
+杭州,FDE前沿部署工程师,杭州伏羲空间智能科技有限公司,9-10K,未明确,本科,全职或实习,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5D73211AFE0FF242E0653A68DD0E9B18,2026-10-10,detail_verified,B,58,CAD API/C++或C#/工业软件,要求CAD二次开发和出差驻场
+杭州,AI应用开发实习生-研发效能方向,农夫山泉,面议,未明确,相关专业,实习,https://www.ruyuejian.com/job/75a93e98-388e-41a7-9a98-7ddafacd4ac5,2026-10-19,detail_verified,B,66,实习资格/Agent工程化,需确认毕业生是否可申请
+杭州,AI智能体开发,未公开,未公开,经验不限,未公开,全职,https://job.hdu.edu.cn/job/view/id/1731757,2026-10-16,search_confirmed,A,70,详情待登录核实,高校平台详情需登录
+杭州,AI数据工程师（Data Pipeline）,未公开,未公开,经验不限,未公开,全职,https://job.hdu.edu.cn/job/view?id=1729752,未明确,search_confirmed,B,52,数据管道/Python/数据库,详情需登录核实
+南京,前线部署工程师（FDE）,南京木火医疗科技有限公司,30-60K,3-10年,本科,全职,https://www.liepin.com/job/1986338985.shtml,2026-11-02,detail_verified,C,36,生产交付年限/成熟FDE经验,薪资和经验门槛明显偏高
+南京,FDE岗位模型,南京智政大数据科技有限公司,未公开,未公开,未公开,岗位模型文章,https://www.zzdsj.com.cn/zxzx/20260923/i10817.html,2026-09-23,role_model,B,64,需要寻找具体初级职位,不是招聘详情
+福州,AI应用工程师,金智维（福州）信息技术有限公司,9-14K,2年以上,大专,全职,https://www.shqiujian.com/zhaopin/job/17372.html,2025-02-18,reference_only,B,61,Python/数据库/RPA/工作流,非杭州南京且信息较旧
+杭州,AI全栈工程师（偏前端）,杭州万悉科技有限公司,面议,未明确,本科及以上,全职,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=5B967D7EFFC0FA7DE0653A68DD0E9B18,2026-09-18,detail_verified,B,60,前端工程化/JavaScript或TypeScript/AI Agent/RAG/企业知识库,岗位偏前端且薪资未公开；需确认是否接受毕业两年半求职者
+杭州,AI应用开发,原创软件,未公开,未明确,本科,实习,https://www.deizao.net/m/index/shixixq/jobid/281515,2026-10-18,detail_verified,B,61,Python/Agent/MCP/Skill/服务化部署/评测,每周5天每天3小时；岗位截止2026-11-05；实习资格和企业正式招聘关系需确认
+上海,FDE-AI前线部署工程师/AI应用交付工程师,EY安永,实习津贴/未公开,未明确,本科,实习及全职,https://www.deizao.net/index/index/shixixq/jobid/273349,2026-10-09,reference_only,B,72,Python/Java/JavaScript/HTTP REST/Git/SQL/RAG/Tool Calling/Docker/Linux/部署验收,上海岗位且来源为第三方实习信息整理；用于技能模型参考，投递前需核验企业原始招聘页
+上海,Workflow FDE实习生,小红书,未公开,未明确,本科,实习,https://www.deizao.net/m/index/shixixq/jobid/276295,2026-10-10,reference_only,B,70,需求挖掘/Agent/Workflow/Codex/软件与Agent原理/沟通,上海岗位；每周5天每天3小时；在读或实习资格风险较高
+南京,FDE工程师（AI方向）,未公开,未公开,未明确,未公开,全职,https://www.zhipin.com/job_detail/20093d96dbb34faf0nV53t-_ElFU.html,2026-04-08,search_confirmed,B,65,客户现场部署/集成/调试/验收/运维；城市公司薪资待核实,BOSS安全校验；搜索摘要不能替代详情页
+南京,AI Agent工程师/大模型应用工程师/RAG应用开发工程师/解决方案工程师,思特顺科技,未公开,未明确,未公开,岗位组,https://siteshun.com/careers,2026-11-02,company_lead,B,68,AI Agent/RAG/大模型应用/解决方案/客户现场/项目交付,不是单一岗位详情；招聘页列出南京和杭州等协同办公地点；具体HC和薪资需确认
+南京,AI智能体/RPA/生成式AI解决方案服务岗位,南京伊克罗德信息科技有限公司,未公开,未明确,未公开,公司线索,https://www.ecloudrover.com/ai-agent/,2026-11-02,company_lead,B,69,Dify/Agent/RPA/向量检索/企业解决方案/云咨询/培训交付,当前资料证明企业产品和服务方向，不等于当前开放岗位；需要继续查招聘页或主动查看岗位
+杭州,AI应用开发工程师,杭州爱科科技股份有限公司,未公开,未明确,未公开,招聘会岗位线索,https://career.ecust.edu.cn/InformationDetail.aspx?XXID=1573,2026-09-16,company_lead,B,57,AI应用开发/业务场景落地/工程化基础,来自滨江企业招聘会汇总；详情、经验和是否接受社招需核实
+杭州,AI产品经理/AI应用工程师/解决方案工程师,浙江中控信息产业股份有限公司,未公开,未明确,未公开,招聘会岗位线索,https://career.ecust.edu.cn/InformationDetail.aspx?XXID=1573,2026-09-16,company_lead,B,55,需求调研/AI应用/解决方案/项目实施,来自滨江企业招聘会汇总；具体岗位和经验要求需核实
+杭州,AI Agent应用工程师,中昊芯英（杭州）科技股份有限公司,未公开,未明确,未公开,招聘会岗位线索,https://career.ecust.edu.cn/InformationDetail.aspx?XXID=1573,2026-09-16,company_lead,C,45,Agent应用/AI基础设施/软件工程,岗位可能偏研发和高学历；来自招聘会汇总，暂不作为主投
+杭州,服务端AI全栈开发工程师,杭州华途信息安全技术股份有限公司,8-13K,经验不限,本科,全职,https://job.hdu.edu.cn/job/view/id/1731866,2026-10-19,detail_verified,B,68,Python/后端服务/接口联调/AI应用工程化,职位详情正文未公开技术细节；需补问实际语言、框架、模型和业务方向
+杭州,终端AI Agent应用工程师（跨平台）,杭州华途信息安全技术股份有限公司,8-13K,经验不限,本科,全职,https://job.hdu.edu.cn/job/view/id/1731862,2026-10-19,detail_verified,B,56,C/C++/跨平台开发/Agent应用/系统基础,岗位分类偏C/C++；用户有C++学习背景但需要重新补齐工程实践
+杭州,AI应用工程师,杭州广立微电子有限公司,22-25K,经验不限,硕士,全职,https://job.hdu.edu.cn/job/view/id/1730359,2026-09-14,detail_verified,C,34,硕士学历/AI算法/深度学习框架,薪资高但硕士硬门槛明显，不作为两个月主投岗位
+杭州,AI应用开发工程师,信雅达科技股份有限公司,面议,未明确,本科及以上,全职,https://www.career.zju.edu.cn/jyxt/sczp/zpztgl/ckZpgwXq.zf?zpxxbh=412EF154D3F58195E0653A68DD0E9B18,2025-10-16,expired_reference,B,58,Python/Java/RAG/PyTorch或TensorFlow/AI场景落地,招聘截止日期为2026-06-30，当前已过期；保留作为杭州金融AI岗位技能参考
+杭州,AI产品经理,信雅达科技股份有限公司,面议,未明确,本科及以上,全职,https://www.career.zju.edu.cn/jyxt/sczp/zphgl/ckZphdwXq.zf?zphsqbh=0c084d7b3b83957bcb53af94c3cc5cb3&dwxxid=761C0E15520424AFE055000000000001&zphbh=3FD4E9845423B350E0653A68DD0E9B18,2025-10-22,expired_reference,B,55,需求梳理/AI场景/模型对接/产品测试验收/文档沉淀,招聘会已结束且岗位日期较旧；可用于补充AI产品与交付表达

@@ -1,0 +1,22 @@
+[
+  {"id":"eng-001","question":"滨江办公楼改造项目的负责人是谁？","expected":"李工","category":"工程文档"},
+  {"id":"eng-002","question":"工程项目有哪些关键节点？","expected":"施工准备、主体结构复核、机电安装、竣工验收","category":"工程文档"},
+  {"id":"eng-003","question":"临边防护存在隐患时应该怎么处理？","expected":"停止相关作业并指定责任人和整改期限，人工复核","category":"安全"},
+  {"id":"eng-004","question":"工程变更是否可以直接执行？","expected":"需要书面记录并履行审批流程","category":"合同与变更"},
+  {"id":"eng-005","question":"竣工验收资料缺少签字确认怎么办？","expected":"不能直接形成最终验收结论，需要补齐确认","category":"验收"},
+  {"id":"eng-006","question":"施工现场检查需要覆盖哪些内容？","expected":"临边洞口、临时用电、脚手架、起重设备、消防和安全教育","category":"安全"},
+  {"id":"eng-007","question":"请从项目记录中提取负责人和竣工日期。","expected":"结构化字段","category":"抽取"},
+  {"id":"eng-008","question":"这份资料没有说明设计变更流程，可以直接审批吗？","expected":"依据不足或人工复核","category":"拒答"},
+  {"id":"eng-009","question":"工程项目的计划竣工日期是什么？","expected":"2027-04-30","category":"工程文档"},
+  {"id":"eng-010","question":"项目资料中没有负责人时应该怎样处理？","expected":"提示依据不足并转人工","category":"拒答"},
+  {"id":"ent-001","question":"杭州出差住宿超过标准怎么办？","expected":"超过标准需要部门负责人审批","category":"制度问答"},
+  {"id":"ent-002","question":"请假超过5天需要谁复核？","expected":"人力资源部门复核","category":"流程问答"},
+  {"id":"ent-003","question":"项目上线前需要检查什么？","expected":"权限、知识库、模型、接口、超时和回滚","category":"交付问答"},
+  {"id":"ent-004","question":"知识库没有公司食堂菜单，应该怎么回答？","expected":"转人工，不编造答案","category":"拒答"},
+  {"id":"ent-005","question":"费用680元，标准450元，是否需要复核？","expected":"需要人工复核","category":"工具调用"},
+  {"id":"ent-006","question":"请提取杭州出差申请的金额和事由。","expected":"结构化字段","category":"抽取"},
+  {"id":"ent-007","question":"模型服务失败时应该发生什么？","expected":"回退到演示回答器并记录原因","category":"故障回退"},
+  {"id":"ent-008","question":"回答为什么要展示来源文档？","expected":"便于复核和降低无依据回答风险","category":"产品解释"},
+  {"id":"ent-009","question":"客户验收时交付工程师需要演示什么？","expected":"演示核心流程并提交部署说明","category":"交付问答"},
+  {"id":"ent-010","question":"请解释一次知识库问答的执行轨迹。","expected":"接收问题、检索、模型调用、引用和人工复核","category":"可观察性"}
+]

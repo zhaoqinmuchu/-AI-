@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>企业 AI 工作台</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand-mark">A<span>I</span></div>
+        <div class="brand-copy"><strong>企业 AI 工作台</strong><span>知识库 · 工作流 · 交付</span></div>
+        <nav class="nav-list" aria-label="主导航">
+          <button class="nav-item active" data-panel="assistant"><span>✦</span>知识库助手</button>
+          <button class="nav-item" data-panel="workflow"><span>↗</span>流程抽取</button>
+          <button class="nav-item" data-panel="engineering"><span>⌁</span>工程审查</button>
+          <button class="nav-item" data-panel="documents"><span>▤</span>文档中心</button>
+        </nav>
+        <div class="sidebar-foot"><div class="status-dot"></div><div><strong id="provider-label">演示模式</strong><span id="provider-detail">等待服务检查</span></div></div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div><p class="eyebrow">PORTFOLIO DEMO / 01</p><h1>把企业资料变成可执行的工作流</h1></div>
+          <div class="topbar-actions"><span class="pill">可切换 Dify / Ollama</span><button class="ghost-button" id="health-button">检查服务</button></div>
+        </header>
+
+        <section class="panel active-panel" id="panel-assistant">
+          <div class="panel-intro">
+            <div><p class="eyebrow">KNOWLEDGE ASSISTANT</p><h2>从知识库中找到有依据的答案</h2><p class="muted">演示版本包含制度、流程和项目交付资料。连接 Dify 或 Ollama 后可以替换为真实模型服务。</p></div>
+            <div class="metric-card"><span>知识库文档</span><strong id="doc-count">—</strong></div>
+            <div class="metric-card"><span>回答依据</span><strong>可追溯</strong></div>
+          </div>
+
+          <div class="assistant-grid">
+            <div class="card ask-card">
+              <div class="card-heading"><div><span class="section-label">ASK</span><h3>提出一个企业问题</h3></div><span class="keyboard-hint">Ctrl + Enter</span></div>
+              <textarea id="question-input" placeholder="例如：杭州出差住宿超过标准怎么办？">杭州出差住宿超过标准怎么办？</textarea>
+              <div class="suggestions"><button data-question="国内出差住宿标准是多少？">住宿标准</button><button data-question="请假超过 5 天需要谁审批？">请假审批</button><button data-question="项目上线前需要检查什么？">上线检查</button></div>
+              <button class="primary-button" id="ask-button"><span>运行检索与回答</span><b>→</b></button>
+            </div>
+
+            <div class="card answer-card">
+              <div class="card-heading"><div><span class="section-label">ANSWER</span><h3>回答结果</h3></div><span class="confidence" id="confidence">等待提问</span></div>
+              <div class="answer-body" id="answer-body"><div class="empty-state"><div class="empty-icon">✦</div><p>输入问题后，系统会展示答案、引用依据和执行轨迹。</p></div></div>
+              <div class="review-note" id="review-note" hidden>需要人工复核：当前知识库没有足够依据。</div>
+            </div>
+          </div>
+
+          <div class="trace-card card"><div class="card-heading"><div><span class="section-label">TRACE</span><h3>执行轨迹</h3></div><span class="muted">用于交付和排错</span></div><div class="trace-list" id="trace-list"><span class="trace-placeholder">运行一次问答后查看每个步骤</span></div></div>
+        </section>
+
+        <section class="panel" id="panel-workflow">
+          <div class="panel-intro"><div><p class="eyebrow">WORKFLOW EXTRACTION</p><h2>把自然语言变成结构化字段</h2><p class="muted">这是企业流程自动化中最常见的一类任务：提取字段、判断规则、交给人工审批。</p></div></div>
+          <div class="workflow-grid">
+            <div class="card ask-card"><div class="card-heading"><div><span class="section-label">INPUT</span><h3>粘贴一段申请内容</h3></div></div><textarea id="workflow-input">申请人：李明&#10;出差地：杭州&#10;事由：客户项目上线支持&#10;费用：680 元</textarea><button class="primary-button" id="extract-button"><span>提取字段</span><b>→</b></button></div>
+            <div class="card answer-card"><div class="card-heading"><div><span class="section-label">STRUCTURED OUTPUT</span><h3>结构化结果</h3></div></div><div class="field-list" id="field-list"><span class="trace-placeholder">提取结果会显示在这里</span></div></div>
+          </div>
+        </section>
+
+        <section class="panel" id="panel-engineering">
+          <div class="panel-intro"><div><p class="eyebrow">ENGINEERING REVIEW</p><h2>把工程文档变成可复核的行动清单</h2><p class="muted">这个场景使用你的工程文档和 CAD 背景，但不依赖 CAD API；重点展示知识库、风险识别、工具调用和人工复核。</p></div></div>
+          <div class="workflow-grid">
+            <div class="card ask-card"><div class="card-heading"><div><span class="section-label">PROJECT INPUT</span><h3>粘贴项目问题或现场记录</h3></div></div><textarea id="engineering-input">项目名称：滨江办公楼改造项目&#10;负责人：李工&#10;问题：临边防护存在隐患，预计影响竣工日期。&#10;竣工日期：2027-04-30</textarea><button class="primary-button" id="engineering-button"><span>审查工程问题</span><b>→</b></button></div>
+            <div class="card answer-card"><div class="card-heading"><div><span class="section-label">REVIEW RESULT</span><h3>审查结果</h3></div><span class="confidence" id="engineering-status">等待审查</span></div><div class="answer-body" id="engineering-result"><div class="empty-state"><div class="empty-icon">⌁</div><p>系统会返回摘要、字段、依据、风险和人工复核状态。</p></div></div></div>
+          </div>
+          <div class="card trace-card"><div class="card-heading"><div><span class="section-label">TOOL CALL</span><h3>工程进度计算</h3></div><span class="muted">展示一个可解释的业务工具调用</span></div><div class="tool-row"><input id="progress-completed" type="number" value="6" min="0" placeholder="已完成节点" /><input id="progress-total" type="number" value="10" min="1" placeholder="总节点" /><button class="ghost-button" id="progress-button">计算完成率</button><span id="progress-result" class="muted">等待计算</span></div></div>
+        </section>
+
+        <section class="panel" id="panel-documents">
+          <div class="panel-intro"><div><p class="eyebrow">DOCUMENT CENTER</p><h2>当前知识库</h2><p class="muted">每条回答都会显示来源文档，便于复核和交付。</p></div></div>
+          <div class="card import-card"><div class="card-heading"><div><span class="section-label">IMPORT</span><h3>导入 Markdown 或纯文本资料</h3></div><span class="muted">PDF 先提取文字再导入</span></div><div class="import-row"><input id="document-file" type="file" accept=".md,.markdown,.txt,.pdf" /><input id="document-title" placeholder="文档标题" /><input id="document-type" value="导入文档" placeholder="文档类型" /><textarea id="document-content" placeholder="粘贴 Markdown 或纯文本内容"></textarea><button class="primary-button" id="import-button"><span>加入知识库</span><b>→</b></button></div></div>
+          <div class="document-grid" id="document-grid"></div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
